@@ -4,7 +4,7 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
-  MAINNET = 56,
+  MAINNET = 137,
   TESTNET = 97
 }
 
@@ -19,7 +19,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x7301B185ec6C5fbe06f8E54F6Fb4a3b3122b086E'
+export const FACTORY_ADDRESS = '0x3b4e3aA188BE23C4450f41b951496c47E488dd66'
 
 export const INIT_CODE_HASH = '0x6b17f6c33349c7eaef1f6fbb2631b4d415285a9854dc23586b60ef019667b93f'
 
